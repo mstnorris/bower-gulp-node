@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+$font-family-base: 'Open Sans', sans-serif;
+$text-color: #607d8b;
+
+@import "bootstrap";
+@import "font-awesome";
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+// Bootstrap Starter Template Styles
+body {
+  padding-top: 50px;
+}
+
+.row {
+    min-height: 480px;
+}
+
+.row.alternate {
+    background: #eceff1;
+}
+
+.row {
+    line-height: 360px;
+    border: 1px solid blue;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
+.screenshot,
+.screenshot-center {
+    width: 100%;
+    min-width: 640px;
+    display: block;
+    margin: 0 auto;
+}
+
+.screenshot-left {
+    float:right;
+}
+
+@media (min-width: $screen-sm-min) {
+    .screenshot {
+        width: 100%;
+    }
+
+    .screenshot.screenshot-left {
+        margin-left: -10%;
+    }
+
+    .screenshot.screenshot-right {
+        margin-right: -10%;
+    }
+
+    .screenshot-screenshot-center {
+        width: 100%;
+    }
+}
+
+@media (min-width: $screen-md-min) {
+
+}
+
+@media (min-width: $screen-lg-min) {
+
+}
