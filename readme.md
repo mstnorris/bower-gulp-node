@@ -22,4 +22,4 @@
 
 `gulp`
 
-6. Visit _index.html_ in your browser.
+6. Visit _public/index.html_ in your browser.
