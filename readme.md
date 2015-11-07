@@ -1,6 +1,6 @@
-# Simple project that sets up [bower](http://bower.io), [gulp](http://gulpjs.com), [node](http://nodejs.org). It pulls in [Bootstrap](http://getbootstrap.com) and [FontAwesome](http://fontawesome.io).
+## Simple project that sets up [bower](http://bower.io), [gulp](http://gulpjs.com), [node](http://nodejs.org). It pulls in [Bootstrap](http://getbootstrap.com) and [FontAwesome](http://fontawesome.io).
 
-## Installation
+### Installation
 
 1. Clone this repo.
 
